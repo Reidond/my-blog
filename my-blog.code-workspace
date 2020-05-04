@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "packages/new-blogsite-for-my-posts"
+		},
+		{
+			"path": "packages/wordpress-sql-parse-posts"
+		}
+	],
+	"settings": {}
+}
