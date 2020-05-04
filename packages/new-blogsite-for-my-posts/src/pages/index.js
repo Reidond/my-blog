@@ -1,5 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
+import temp from 'wordpress-sql-parse-posts';
+import SyntaxHighlighter from 'react-syntax-highlighter';
+import tomorrow from 'react-syntax-highlighter/dist/esm/styles/prism/tomorrow'
 
 import Layout from "../components/layout"
 import Image from "../components/image"
@@ -14,6 +17,9 @@ const IndexPage = () => (
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
+    <SyntaxHighlighter language="javascript" style={tomorrow}>
+      {temp}
+    </SyntaxHighlighter>
     <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )

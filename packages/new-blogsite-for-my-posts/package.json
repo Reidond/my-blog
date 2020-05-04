@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "new-blogsite-for-my-posts",
   "private": true,
   "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "version": "1.0.0",
+  "author": "Andrii Shafar <andreyshafar@gmail.com>",
   "dependencies": {
     "gatsby": "^2.21.0",
     "gatsby-image": "^2.4.0",
@@ -16,7 +16,9 @@
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-helmet": "^6.0.0"
+    "react-helmet": "^6.0.0",
+    "react-syntax-highlighter": "^12.2.1",
+    "wordpress-sql-parse-posts": "^1.0.0"
   },
   "devDependencies": {
     "prettier": "2.0.5"
@@ -36,9 +38,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/Reidond/my-blog"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/Reidond/my-blog/issues"
   }
 }

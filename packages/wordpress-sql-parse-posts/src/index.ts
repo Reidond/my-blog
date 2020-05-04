@@ -1,6 +1,6 @@
 import { parse } from "@wordpress/block-serialization-default-parser";
 
-const temp = `
+const temp = parse(`
 <!-- wp:columns {"columns":3} -->
 <div class="wp-block-columns has-3-columns"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:paragraph -->
@@ -18,6 +18,6 @@ const temp = `
 <div class="wp-block-column"></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
-`;
+`);
 
-console.log(parse(temp));
+export { temp as default };

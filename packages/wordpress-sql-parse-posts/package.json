@@ -5,7 +5,6 @@
   "description": "Trying to parse my posts from wordpress",
   "main": "dist/wordpress-sql-parse-posts.cjs.js",
   "module": "dist/wordpress-sql-parse-posts.esm.js",
-  "browser": "dist/wordpress-sql-parse-posts.umd.js",
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w"
